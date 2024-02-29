@@ -1,1 +1,9 @@
 Сохраните сюда результат вывода:
++-----------------------------------+
+|title                              |
++-----------------------------------+
+|Nineteen Eighty-Four               |
+|Harry Potter and the Goblet of Fire|
+|Harry Potter and the Goblet of Fire|
+|Jane Eyre                          |
++-----------------------------------+

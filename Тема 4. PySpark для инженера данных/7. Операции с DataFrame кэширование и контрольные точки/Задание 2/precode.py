@@ -41,3 +41,5 @@ df_join = df.join(df_library,['book_id'], 'leftanti').select('title')
 df_cache= df_join.cache()
 
 # сделайте контрольную точку на df_cache
+spark.sparkContext.setCheckpointDir("/user/sergeykhar/checkpoint")
+df_cache.checkpoint().explain()
